@@ -11,7 +11,9 @@ public class Change {
 		System.out.print("");
 		str1 = scanner.nextLine();
 		System.out.println("efg");
+		
+		
 	}
 
 }
-// 不管輸入什麼，結果都是顯示efg
+// 不管輸入什麼，結果都是顯示efg，但只能輸入一次。
