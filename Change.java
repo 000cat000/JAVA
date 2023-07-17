@@ -6,10 +6,10 @@ public class Change {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str1;
+		String str;
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("");
-		str1 = scanner.nextLine();
+		str = scanner.nextLine();
 		System.out.println("efg");
 		
 		
