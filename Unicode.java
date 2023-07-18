@@ -23,7 +23,7 @@ public class Unicode {
 	        } catch (Exception e) {
 	            e.printStackTrace();
 	        }
-        }
+        }   //  查詢中文字的Unicode編碼
 	}
 
 }
