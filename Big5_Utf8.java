@@ -1,11 +1,16 @@
 package Convert;
 import java.io.UnsupportedEncodingException;
+import java.util.Scanner;
 
 public class Big5_Utf8 {
 
 	public static void main(String[] args) throws UnsupportedEncodingException{
 		// TODO Auto-generated method stub
-		String str="菜";
+		String str = "";
+		System.out.print("請輸入文字：");
+		Scanner scanner = new Scanner(System.in);
+		str = scanner.nextLine();
+		
 		byte[] big5Str=str.getBytes("big5");
 		byte[] utf8Str=str.getBytes("utf8");
 		
@@ -18,8 +23,7 @@ public class Big5_Utf8 {
 		for(byte b:utf8Str) System.out.printf("%02X",b);
 		System.out.println();
         
-		
+	//  查詢中文字的BIG5和UTF-8編碼
 	}
 
 }
-//  查詢中文字的BIG5和UTF-8編碼
