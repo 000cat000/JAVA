@@ -6,6 +6,9 @@ public class Big5_Utf8 {
 
 	public static void main(String[] args) throws UnsupportedEncodingException{
 		// TODO Auto-generated method stub
+		
+		while(true) {
+	        try {
 		String str = "";
 		System.out.print("請輸入文字：");
 		Scanner scanner = new Scanner(System.in);
@@ -22,8 +25,11 @@ public class Big5_Utf8 {
 		System.out.printf("%s \tutf-8\t編碼為: ",str);
 		for(byte b:utf8Str) System.out.printf("%02X",b);
 		System.out.println();
-        
-	//  查詢中文字的BIG5和UTF-8編碼
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+        }     //  查詢中文字的BIG5和UTF-8編碼
+	          //  增加迴圈才能一直跑出輸入查詢
 	}
 
 }
